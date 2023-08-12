@@ -44,11 +44,11 @@ function callback(arr) {
         }
         console.log(findIndexof([1,5,8],callBack))
         /*reduce*/
-        function reduce(arr) {
-            let result =arr[0]
-            for (let i = 1; i < arr.length; i++) {
-            result +=arr[i]
+        function reduce(arr,initial) {
+            
+            for (let i = 0; i < arr.length; i++) {
+              initial +=arr[i]
             }
-            return result
+            return initial
           }
-          console.log(reduce([1,8,9]))
+          console.log(reduce([1,8,9],0))
