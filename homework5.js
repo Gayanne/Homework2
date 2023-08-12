@@ -51,4 +51,4 @@ function callback(arr) {
             }
             return result
           }
-          console.log(callBack([1,8,9]))
+          console.log(reduce([1,8,9]))
