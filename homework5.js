@@ -44,3 +44,10 @@ function callback(arr) {
         }
         console.log(findIndexof([1,5,8],callBack))
         /*reduce*/
+        function callback(item){
+
+        }
+        function reduce(){
+
+        }
+        /*i have dificulties with reduce example.
